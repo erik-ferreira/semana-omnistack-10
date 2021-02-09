@@ -1,0 +1,97 @@
+#div-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 30px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.update-form {
+    width: 500px;
+    margin: 0px auto;
+    padding: 30px 20px;
+    border-radius: 2px;
+    background: #FFFFFF;
+}
+
+.update-form strong {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+.update-form form {
+    margin-top: 30px;
+}
+
+.update-form form .input-block label {
+    color: #ACACAC;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+.update-form form .input-block input {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.update-form form .input-block textarea {
+    resize: none;
+    width: 100%;
+    height: 55px;
+    color: #666;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.input-block textarea::-webkit-input-placeholder {
+    color: #bbb; 
+}
+
+.update-form form button[type=submit] {
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+    background: #7d40e7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.update-form  form button[type=submit]:hover {
+    background: #6931ca;
+}
+
+.update-form form button#btn-cancel-update {
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+    background: #FF3030;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.update-form form button#btn-cancel-update:hover {
+    background: #AA0000;
+}
+
+.update-form form .input-block + .input-block {
+    margin-top: 20px;
+}
